@@ -15,8 +15,8 @@ const App = () => {
 
   return (
     <div>
-      {games.map(({ id, name, description, price }) => (
-        <GameCard key={id} title={name} description={description} price={price} />
+      {games.map(({ id, title, category, price }) => (
+        <GameCard key={id} title={title} category={category} price={price} />
       ))}
     </div>
   );

@@ -1,14 +1,14 @@
 import React from "react";
 import "./GameCard.css";
   
-const GameCard = ({title, description, price}) => {
+const GameCard = ({title, category, price}) => {
     return (
         <div className="game-card">
             <h2>
                 {title}
             </h2>
             <p>
-                {description}
+                {category}
             </p>
             <p>
                 US$ {price}
